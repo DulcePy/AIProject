@@ -63,6 +63,10 @@ form {
   border-radius: 10px;
 }
 
+.poem-content strong {
+  color: #4b0082;
+}
+
 footer {
   text-align: center;
   font-size: 12px;
@@ -75,6 +79,6 @@ a {
   color: #4b0082;
 }
 
-span {
+.author-name {
   color: #4b0082;
 }

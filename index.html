@@ -12,7 +12,7 @@
     <link rel="stylesheet" href="src/style.css" />
 
     <script src="https://unpkg.com/typewriter-effect@latest/dist/core.js"></script>
-
+    <script src="https://unpkg.com/axios@1.6.7/dist/axios.min.js"></script>
     <title>AI Poem Generator</title>
   </head>
   <body>
@@ -29,13 +29,14 @@
             autofocus
             autocomplete="off"
             class="instructions"
+            id="user-instructions"
           />
           <input type="submit" value="Submit" class="button" />
         </form>
         <div class="poem-content" id="poem"></div>
       </main>
       <footer>
-        This project was coded by <span>Dulce Figueredo</span> and is
+        This project was coded by <span class="author-name">Dulce Figueredo</span> and is
         open-sourced on
         <a href="https://github.com/DulcePy/AIProject">GitHub</a> and is hosted
         on
