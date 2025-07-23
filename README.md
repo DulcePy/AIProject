@@ -2,7 +2,7 @@
 
 🤖 Responsive web application that generates a short poem using AI based on a keyword entered by the user.
 
-### 🛠 Tecnologies
+### 🛠 Technologies
 
 - HTML
 - CSS
